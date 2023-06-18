@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(39,39,39,1);
+    height: 1500px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(50, 50, 50);
+    color:white;
+    height: 100px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    list-style: none;
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+
+.navbar ul li{
+    font-size: 25px;
+    font-family: Arial ;
+
+}
+.navbar h1{
+    margin-left: 100px;
+    margin-top:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar h1 img{
+    height:30px;
+}
+
+#image img{
+    border-radius: 300px;
+    height: 300px;
+    margin-top: 125px;
+    margin-left: 535px; 
+}
+
+#image h2{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#image h3{
+    text-align: center;
+    color: aliceblue;
+}
+#AU{
+    padding-left:200px;
+    padding-right: 200px;
+    margin-top: 100px;
+    /*background: linear-gradient(110deg, rgba(60,60,60,1) 60%, rgba(80,80,80,1) 60%);*/
+    background-color:rgb(245,234,225);
+    height: 1500px;
+    padding-top:1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#AU h1{
+    text-align: center;
+    margin-top: 100px;
+}
+#AU h3{
+    line-height: 150%;
+    text-align: justify;
+}
+hr{
+    margin-top:100px ;
+}
+
+table,tr,th{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+#skills ul{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    max-height: 300px;
+}
+#skills ul li{
+    list-style:outside;
+    list-style-type:
+}
+#one{
+    width:50%;
+    margin-left:20px;
+}
+#two{
+    width: 50%;
+    padding-left: 20px;
+}
+#skills h4{
+    font-size:large;
+}
+#one li h4{
+    font-size:17px;
+    font-weight: 500;
+}
+#two li h4{
+    font-size:17px;
+    font-weight: 500;
+}
+#skills{
+    width:1000px;
+}
+#projects{
+    margin-top: -18px;
+    height:500px;
+    background-color: white;
+    padding-top: 50px;
+}
+#projectsmaterial{
+    font-size:20px;
+    font-weight: 600;  
+}
+
+#projects h1{
+    display: flex;
+    justify-content: center;
+}
+
+#projectsmaterial {
+    margin-left: 590px;
+}
+
+#contact h1{
+   display: flex;
+   justify-content: center;
+}
+
+#contact{
+   padding-top: 50px;
+}
+#hhh{
+    display: flex;
+    flex-direction: row;
+
+}
+#in{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+    width: 400px;
+    margin-left: 350px;
+    background-color: darkgray;
+    opacity: 0.7;
+    border-radius: 50px; 
+    padding-top:20px;
+}
+
+#in input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#in h2{
+    color: white;
+
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px ;
+    margin-left: 200px;
+    width: 200px;
+    color:grey;
+}
+
+#social img{
+    height: 30px;
+    width: 30px;
+}
+#AU h1::first-letter{
+	color:red;
+	font-size:150%;
+}
